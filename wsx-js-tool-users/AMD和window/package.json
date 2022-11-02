@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "requirejs": "^2.3.6",
-    "wsx-js-tool-hi": "^2.1.9"
+    "wsx-js-tool-hi": "^2.1.9",
+    "wsx-ts-tool-hi": "^1.0.3"
   }
 }

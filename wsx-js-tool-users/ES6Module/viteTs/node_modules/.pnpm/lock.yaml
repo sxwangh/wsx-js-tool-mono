@@ -6,11 +6,13 @@ specifiers:
   vite: ^3.1.0
   vue: ^3.2.37
   vue-tsc: ^0.40.4
-  wsx-js-tool-hi: 1.2.4
+  wsx-js-tool-hi: 1.2.5
+  wsx-ts-tool-hi: 1.0.1
 
 dependencies:
   vue: 3.2.41
-  wsx-js-tool-hi: 1.2.4
+  wsx-js-tool-hi: 1.2.5
+  wsx-ts-tool-hi: 1.0.1
 
 devDependencies:
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.2+vue@3.2.41
@@ -567,8 +569,12 @@ packages:
       '@vue/server-renderer': 3.2.41_vue@3.2.41
       '@vue/shared': 3.2.41
 
-  /wsx-js-tool-hi/1.2.4:
-    resolution: {integrity: sha512-5qxWUDH0a9LVw9OrgfecmmoyPpjYEJTtQkIPOxhKpBQb3U8E2XAcZog8bRXwTOxdCcyVdCZIjsuAb81HTdsa2g==}
+  /wsx-js-tool-hi/1.2.5:
+    resolution: {integrity: sha512-hU2/mqIRwlCIy8YSXwV2z+ntejRwu1Q8YoddcNLmQueP/1roqTFUa7sDAHIm6IBB3Ox2bkeWDTCcak6hx7WWHw==}
+    dev: false
+
+  /wsx-ts-tool-hi/1.0.1:
+    resolution: {integrity: sha512-VOUK605VY1lOJRzBBiyQq5bV4C0fPZCN4ETv+4h6lQGWA8jgihQN+cVf0rtPjvzpWYfH7SZsmrE/EMo8awSRzw==}
     dev: false
 
   /yallist/4.0.0:

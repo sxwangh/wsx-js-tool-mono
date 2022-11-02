@@ -6,9 +6,15 @@
 </head>
 <body>
 <script src="./node_modules/wsx-js-tool-hi/dist/wsx-js-tool.min.js"></script>
+<script src="./node_modules/wsx-ts-tool-hi/lib/wsx-ts-tool.umd.js"></script>
 <script>
+    // js tool webpack
     console.log(window['anyNameIsOk-root'].getToday()); // 由于wsx-js-tool.min.js没有检测到 amd和cmd，所以加载root['anyNameIsOk-root']
     document.write(window['anyNameIsOk-root'].getToday())
+    document.write('<br/>')
+    // ts tool rollup
+    console.log(window.wsx.getToday()); // 由于wsx-js-tool.min.js没有检测到 amd和cmd，所以加载root['anyNameIsOk-root']
+    document.write(window.wsx.getToday())
 </script>
 </body>
 </html>

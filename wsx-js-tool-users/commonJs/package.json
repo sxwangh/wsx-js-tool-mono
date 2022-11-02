@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wsx-js-tool-hi": "^2.1.9"
+    "wsx-js-tool-hi": "^1.2.5",
+    "wsx-ts-tool-hi": "^1.0.5"
   }
 }

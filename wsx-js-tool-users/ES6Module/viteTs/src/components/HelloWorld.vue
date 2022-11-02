@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import wsxJsTool from 'wsx-js-tool-hi';
+import wsxTsTool from 'wsx-ts-tool-hi';
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 const count = ref(0)
 const x = wsxJsTool.getToday();
-alert(x);
+const t = wsxTsTool.getToday();
 </script>
 
 <template>
@@ -14,8 +15,8 @@ alert(x);
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
+      <code>wsxJsTool.getToday()</code> {{ x }} <br>
+      <code>wsxTsTool.getToday()</code> {{ t }}
     </p>
   </div>
 

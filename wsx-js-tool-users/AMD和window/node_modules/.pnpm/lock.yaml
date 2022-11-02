@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+specifiers:
+  requirejs: ^2.3.6
+  wsx-js-tool-hi: ^2.1.9
+  wsx-ts-tool-hi: ^1.0.3
+
+dependencies:
+  requirejs: 2.3.6
+  wsx-js-tool-hi: 2.2.2
+  wsx-ts-tool-hi: 1.0.3
+
+packages:
+
+  /requirejs/2.3.6:
+    resolution: {integrity: sha512-ipEzlWQe6RK3jkzikgCupiTbTvm4S0/CAU5GlgptkN5SO6F3u0UD0K18wy6ErDqiCyP4J4YYe1HuAShvsxePLg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: false
+
+  /wsx-js-tool-hi/2.2.2:
+    resolution: {integrity: sha512-yZugpJoOzkJyKYcVPM7FHFO5Ldj7PS7ShNm/gLqh1sUkEKriHMnmQglHnGH5NlRyQqRbn4gZiibR5KscTL4Pvg==}
+    dev: false
+
+  /wsx-ts-tool-hi/1.0.3:
+    resolution: {integrity: sha512-3ko4sykTZrPcbZCsemKMTVWKv1GOQDCujq/0PwIALONkq0lOq9MWGe1pg7VzmmP9O5khb/3RcvNGfBedwDfowQ==}
+    dev: false

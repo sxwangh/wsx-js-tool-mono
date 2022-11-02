@@ -56,6 +56,10 @@ npm who am i
 npm login
 npm publish
 
+###package.json
+file字段控制npm publish发布那些文件。如果没有file字段，则全部发布到npm上
+![img.png](img.png)
+
 
 
 ### 使用例子：https://github.com/sxwangh/wsx-js-tool-useExample

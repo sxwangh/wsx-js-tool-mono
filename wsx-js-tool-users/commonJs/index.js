@@ -1,3 +1,3 @@
-const wsxJsTool = require('wsx-js-tool-hi');
+const wsxtsTool = require('wsx-ts-tool-hi');
 
-console.log(wsxJsTool.getToday());
+console.log(wsxtsTool.getToday());

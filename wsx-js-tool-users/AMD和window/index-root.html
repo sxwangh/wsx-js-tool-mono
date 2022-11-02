@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./node_modules/wsx-js-tool-hi/dist/wsx-js-tool.min.js"></script>
+<script>
+    console.log(window['anyNameIsOk-root'].getToday()); // 由于wsx-js-tool.min.js没有检测到 amd和cmd，所以加载root['anyNameIsOk-root']
+    document.write(window['anyNameIsOk-root'].getToday())
+</script>
+</body>
+</html>

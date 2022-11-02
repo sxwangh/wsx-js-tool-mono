@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./node_modules/requirejs/require.js"></script>
+<!--// 由于wsx-js-tool.min.js检测到了requirejs，所以按照amd的打包形式来引入，不走root的分支：else if(typeof define === 'function' && define.amd  define("anyNameIsOk-amd", [], factory);-->
+<script src="./node_modules/wsx-js-tool-hi/dist/wsx-js-tool.min.js"></script>
+<script>
+    console.log(require);
+    console.log(window['anyNameIsOk-root']); // undefined
+    debugger;
+    window.require(['anyNameIsOk-amd'], function(tool) {
+        debugger;
+        console.log(tool.getToday());
+        document.write(tool.getToday())
+    });
+
+</script>
+</body>
+</html>

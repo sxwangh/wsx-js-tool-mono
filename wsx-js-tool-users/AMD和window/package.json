@@ -1,0 +1,15 @@
+{
+  "name": "amd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wsx-js-tool.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.6",
+    "wsx-js-tool-hi": "^2.1.9"
+  }
+}

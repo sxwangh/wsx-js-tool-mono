@@ -9,12 +9,13 @@ tsc  typescript自带的编译工具 （通过tsc --init来生成tsconfig.json �
 
 ###package.json
 ```
-+ "main": "./dist/index.cjs.js",
-+ "module": "./dist/index.esm.js",
-+ "types": "./dist/index.d.ts",
++ "main": "./lib/index.cjs.js", --- 入口文件
++ "module": "./lib/index.esm.js",  --- 
++ "types": "./lib/index.d.ts",
 + "files": [
 +   "dist"
 + ],
+"unpkg": "lib/wsx-ts-tool.umd.js",  ---- 开启npm的cdn模式 （在使用的html页面直接<script src="https://unpkg.com/wsx-ts-tool-hi@1.0.6/lib/wsx-ts-tool.umd.js"></script>  或者 <script src="https://unpkg.com/wsx-ts-tool-hi/lib/wsx-ts-tool.umd.js"></script>）
 ```
 files 字段是用于约定在发包的时候NPM 会发布包含的文件和文件夹。
 
@@ -45,8 +46,15 @@ rollup-plugin-dts 在rollup中配置
         },
     },
 ```
+### .npmrc 设置npm config
+registry=https://registry.npmjs.org/
+
+
 
 ### commonjs
 ![img_1.png](img_1.png)
 ### esm
 ![img.png](img.png)
+### npm的ubpkg cdn
+<script src="https://unpkg.com/wsx-ts-tool-hi@1.0.6/lib/wsx-ts-tool.umd.js"></script>
+![img_2.png](img_2.png)

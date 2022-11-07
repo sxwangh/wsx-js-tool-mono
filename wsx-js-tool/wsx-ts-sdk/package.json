@@ -1,8 +1,9 @@
 {
   "name": "wsx-ts-tool-hi",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "lib/wsx-ts-tool.umd.js",
+  "unpkg": "lib/wsx-ts-tool.umd.js",
   "files": [
     "lib"
   ],

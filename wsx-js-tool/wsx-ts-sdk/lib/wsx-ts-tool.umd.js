@@ -68,5 +68,5 @@
 }));
 
 if(typeof window !== 'undefined') {
-  window._wsx_VERSION_ = '1.0.3'
+  window._wsx_VERSION_ = '1.0.5'
 }

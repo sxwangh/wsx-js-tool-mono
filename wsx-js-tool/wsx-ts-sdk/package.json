@@ -1,7 +1,7 @@
 {
-  "name": "wsx-ts-tool-hi",
-  "version": "1.0.6",
-  "description": "",
+  "name": "@sxwangh/wsx-ts-tool-hi",
+  "version": "1.0.0",
+  "description": "一个兼容多引用方式的通用js工具类",
   "main": "lib/wsx-ts-tool.umd.js",
   "unpkg": "lib/wsx-ts-tool.umd.js",
   "files": [
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "author": "",
+  "author": "wangsixue",
   "license": "ISC",
   "dependencies": {
     "rollup-plugin-dts": "^5.0.0"

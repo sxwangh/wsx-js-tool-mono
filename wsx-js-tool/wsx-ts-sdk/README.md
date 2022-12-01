@@ -1,3 +1,5 @@
+npm login with this : https://www.npmjs.com/~samblaasvaer (wangsixue)
+
 ```json
 "scripts": {
     "build": "rollup -c", // 打包出 cjs, esm, 和 umd 的包
